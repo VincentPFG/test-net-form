@@ -4,7 +4,7 @@ Layout
         input(name='contenu')
 
     v-btn(@click='dialog = true')
-    v-dialog(v-model='dialog')
+    v-dialog(v-model='dialog' eager)
         v-form(netlify name='test2')
     v-form(netlify name='test3')
 </template>
