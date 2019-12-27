@@ -6,6 +6,7 @@ Layout
     v-btn(@click='dialog = true')
     v-dialog(v-model='dialog')
         v-form(netlify name='test2')
+    v-form(netlify name='test3')
 </template>
 
 <script lang='coffee'>
