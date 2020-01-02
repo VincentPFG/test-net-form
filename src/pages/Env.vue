@@ -4,5 +4,5 @@ Layout
 </template>
 
 <script lang='coffee'>
-console.log TEST
+console.log process.env.TEST
 </script>
