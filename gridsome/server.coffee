@@ -1,4 +1,4 @@
-console.log process.env.TEST
+console.log process.env.GRIDSOME_TEST
 
 module.exports = ({}) ->
 
