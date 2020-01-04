@@ -12,6 +12,7 @@ module.exports =
 			'coffeescript'
 			use: 'vuetify'
 			options: require '../vuetify.theme.coffee'
+			'axios'
 		]
 		'gridsome-plugin-pug'
 		use: '@gridsome/source-filesystem'
